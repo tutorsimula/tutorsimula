@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TutorSimula | Learn Python with Confidence</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <img src="images/logo.png" alt="TutorSimula Logo" class="logo"/>
+      <nav>
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Learn Python the Fun, Interactive, and Effective Way</h1>
+      <p>Empowering beginners through AI-powered avatars, real-time coding, and gamified progress.</p>
+      <a href="#features" class="btn">Explore Features</a>
+    </div>
+  </section>
+
+  <section id="features" class="features">
+    <div class="container">
+      <h2>Why Choose TutorSimula?</h2>
+      <div class="feature-list">
+        <div class="feature">
+          <h3>Avatar Tutoring</h3>
+          <p>Interactive, animated avatars guide you through each lesson step-by-step.</p>
+        </div>
+        <div class="feature">
+          <h3>AI-Powered Help</h3>
+          <p>Get real-time feedback and error explanations to boost your coding skills.</p>
+        </div>
+        <div class="feature">
+          <h3>Gamified Learning</h3>
+          <p>Earn badges, track progress, and stay motivated while learning Python.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="pricing">
+    <div class="container">
+      <h2>Simple Pricing</h2>
+      <div class="price-card">
+        <h3>Free</h3>
+        <p>Access core lessons and basic features.</p>
+        <p><strong>$0/month</strong></p>
+      </div>
+      <div class="price-card">
+        <h3>Premium</h3>
+        <p>Unlock advanced challenges, AI feedback, and avatar customization.</p>
+        <p><strong>$9.99/month</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Email: <a href="mailto:support@tutorsimula.com">support@tutorsimula.com</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 TutorSimula. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
