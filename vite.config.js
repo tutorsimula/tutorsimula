@@ -5,6 +5,7 @@ import { resolve } from 'path';
 export default defineConfig({
   assetsInclude: ['**/*.png', '**/*.jpg', '**/*.svg', '**/*.glb'],
   plugins: [react()],
+  base: '/tutorsimula/',
   server: {
     host: true,
     headers: {

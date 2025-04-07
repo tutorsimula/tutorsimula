@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import NavBar from './NavBar';
-import founderPhoto from '../assets/hari-krishna-chaitanya.jpg'; // Path to your photo
+const founderPhoto = '/hari-krishna-chaitanya.jpg';
 
 const AboutPage = () => {
   const navigate = useNavigate();
@@ -22,11 +22,9 @@ const AboutPage = () => {
           {/* Founder's Story with Photo */}
           <div className="mb-12 flex flex-col md:flex-row items-center">
             <div className="md:w-1/3 mb-6 md:mb-0">
-              <img
-                src={founderPhoto}
-                alt="Founder Hari Krishna Chaitanya"
-                className="w-full h-auto rounded-lg shadow-lg"
-              />
+            <img 
+            src={founderPhoto} alt="Hari Krishna Chaitanya" 
+            className="w-48 h-48 rounded-full object-cover" />
             </div>
             <div className="md:w-2/3 md:pl-8">
               <h2 className="text-3xl font-bold text-white text-center md:text-left mb-6">
