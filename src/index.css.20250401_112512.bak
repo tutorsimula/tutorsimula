@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cm-tooltip.cm-tooltip-lint {
+  background-color: #fef2f2;
+  color: #991b1b;
+  border: 1px solid #fca5a5;
+}
+
+
+.cm-lintRange {
+  background-color: rgba(255, 0, 0, 0.1) !important;
+  border-bottom: 2px solid red !important;
+}
+
+.cm-lintMarker-error {
+  color: red !important;
+}
+
