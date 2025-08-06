@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; url=/" />
+    <meta charset="utf-8">
+    <title>Page Not Found</title>
     <script>
-      // Optional: preserve path after redirect
-      const redirectTo = '/' + location.pathname + location.search + location.hash;
-      window.location.replace(redirectTo);
+      // Get current URL path
+      const redirectTo = location.pathname.replace('/tutorsimula', '');
+      sessionStorage.redirect = redirectTo;
+      window.location.replace('/tutorsimula/');
     </script>
   </head>
   <body>
-    <p>Redirecting to TutorSimula...</p>
+    <p>Redirecting...</p>
   </body>
 </html>
