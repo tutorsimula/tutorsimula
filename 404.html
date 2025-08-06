@@ -4,9 +4,8 @@
     <meta charset="utf-8">
     <title>Redirecting...</title>
     <script>
-      const redirectTo = location.pathname.replace('/tutorsimula', '');
-      sessionStorage.redirect = redirectTo;
-      window.location.replace('/tutorsimula/');
+      const redirectTo = sessionStorage.redirect || '/tutorsimula/';
+      window.location.href = redirectTo;
     </script>
   </head>
   <body>
