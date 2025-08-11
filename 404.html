@@ -1,14 +1,6 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Redirecting...</title>
-    <meta http-equiv="refresh" content="0; url=/tutorsimula/" />
-    <script>
-      window.location.href = '/tutorsimula/';
-    </script>
-  </head>
-  <body>
-    <p>Redirecting to TutorSimula...</p>
-  </body>
-</html>
+<!doctype html><meta charset="utf-8">
+<script>
+  // Preserve the deep link and restart the SPA at /
+  sessionStorage.redirect = location.pathname + location.search + location.hash;
+  location.replace("/");
+</script>
