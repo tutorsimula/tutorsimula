@@ -1,0 +1,6 @@
+<!doctype html><meta charset="utf-8">
+<script>
+  // Preserve the deep link and restart the SPA at /
+  sessionStorage.redirect = location.pathname + location.search + location.hash;
+  location.replace("/");
+</script>

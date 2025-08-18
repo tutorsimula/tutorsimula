@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.tutorsimula.com/sitemap.xml
